@@ -36,7 +36,7 @@ Se procede a realizar en análisis exploratorio de datos, buscando la integralid
 5) Shap values
 ## Metricas
 1) Matriz de confusión, recall, AUC, curvas de validación para validar el tradeoff entre overfiting y underfitting.
-2) 
+2) Me quedo con el modelo Xgboost cuando se usa la metodologia de Smote para mejorar el desbalanceo que inicialmente estaba en 82% de transacciones normales y 12% de transacciones fraccionadas y esto permite llevar el recall a 0.77, castigando algo la precisión (esto depende mucho del negocio y del objetivo del ejercicio)
 
 ## Propuestas a futuro
 1) Evaluar los costos de cada fraccionamiento de las transacciones... si es alto hallar la forma de rechazar dichas fracciones con el fin de desincentivar dicha practica.
